@@ -1,0 +1,169 @@
+body {
+    background-color: #ffffff;
+}
+
+/* .cv-header {
+    background-color: #ffd3d3;
+    padding: 30px 20px;
+    border-radius: 15px 15px 0 0;
+} */
+
+.cv-header {
+    display: flex;
+    align-items: center ; /* Alinea verticalmente los elementos al centro */
+    justify-content: end; /* Alinea los elementos a la izquierda */
+    text-align: center; /* Alinea el texto a la izquierda */
+    flex-direction: row; /* Asegura que los elementos estén en fila */
+    left: 100px;
+}
+
+.cv-texto {
+    display: flex;
+    align-items: center; /* Alineación vertical centrada */
+    justify-content: center; /* Alineación horizontal a la derecha */
+    text-align: left; /* Alineación del texto a la izquierda dentro del contenedor */
+
+}
+
+.cv-header .profile-image {
+    border-radius: 50%; /* Hace la imagen circular */
+    width: 170px; /* Ajusta el tamaño de la imagen */
+    height: 160px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+    margin-right: auto; /* Añade espacio a la derecha de la imagen */
+    margin-left: 300px;
+    
+}
+
+.cv-header h1 {
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+.cv-header h2 {
+    margin-top: 30px; /* Ajusta el espacio entre el nombre y el título */
+    font-size: 1.5rem;
+    color: #000000; /* Color gris claro del título */
+}
+
+/*
+.profile-image {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border: 8px solid #ffd3d3; */
+
+.profile-image {
+    position: relative; /* Necesario para que el pseudo-elemento se posicione correctamente */
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #ffffff; /* Borde rosa pastel */
+    
+}
+
+/*.profile-image-container img {
+
+right: 300px;
+
+}*/
+
+
+
+.profile-image-container {
+    position: relative;
+    width: 220px; /* Un poco más grande que la imagen */
+    height: 220px; /* Un poco más grande que la imagen */
+    border: 10px solid #ffd3d3; /* Segundo borde (verde) */
+    border-radius: 50%; /* Hace que el contenedor también sea redondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Color de fondo para separar los bordes */
+ 
+    right: 300px;
+    
+}
+
+.section-title {
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+    background-color: #ffd3d3;
+    border-radius: 5px; /* Ajusta el valor según el radio deseado */
+    padding: 8px;
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+    background-color: #f36689;
+    border-radius: 50px; /* Ajusta el valor según el radio deseado */
+    padding: 8px;
+}
+
+.titulo2{
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+    background-color: #ffffff;
+    border-radius: 50px; /* Ajusta el valor según el radio deseado */
+    padding: 8px;
+}
+
+.badge {
+   
+    color: #333;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.left-column {
+
+    border: 20px solid #ffffff; /* Opcional: para agregar un borde */
+    background-color: #ffd3d3;
+    border-radius: 10px; /* Ajusta el valor según el radio deseado */
+    padding: 20px;
+}
+
+.left-column2 {
+
+    border-left: 30px solid rgb(255, 255, 255); /* Opcional: para agregar un borde */
+    border-right: 30px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    border-radius: 50px; /* Ajusta el valor según el radio deseado */
+    padding: 20px;
+}
+
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item-icon {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
+.texto-grande {
+    font-size: 80px; /* Tamaño del texto mucho más grande */
+    /*  transform: scale(2); Dobla el tamaño visual del texto */
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 100px;
+}
